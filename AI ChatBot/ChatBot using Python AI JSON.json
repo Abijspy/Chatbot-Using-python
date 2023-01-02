@@ -1,0 +1,50 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello,This is Covid 19 Chatbot,Please tell which symptoms are u facing??"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye!"]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful!!"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "name",
+         "patterns": ["What your's name?", "May I know your name?", "May I know your name please?" ],
+         "responses": ["My name is COVID-19 Chatbot"]
+        },
+        {"tag": " Dry Cough",
+         "patterns": ["I have Dry cough", "I am having dry cough" ],
+         "responses": ["icine may also help.Vitamin -B Complex Tablets,Vitamin-C Chewing Tablets(TUSQ).\nIf you are facing more than 2 symptoms,consult your Doctor & Get tested for COVID-19."]
+        },
+        {"tag": "Fever",
+         "patterns": ["I have fever", "I am having fever" ],
+         "responses": ["Give yourself a sponge bath with lukewarm water.Medications such as paracetamol and ibuprofen may help to ease discomfort.\nIf you are facing more than 2 symptoms,consult your Doctor & Get tested for COVID-19."]
+        },
+        {"tag": "Tiredness",
+         "patterns": ["I am feeling tired","I am having tiredness"],
+         "responses": ["Eat a balanced diet.\nGet regular exercise.\nDrink more water.\nTry to sleep on time.Try to take fresh fruit juices.\nIf you are facing more than 2 symptoms,consult your Doctor & Get tested for COVID-19."]
+
+        },
+       {"tag": "Soar thoart",
+        "patterns": ["I have soar thaort", "I am having soar thoart"],
+        "responses": ["Gargling with warm salt water can help soothe a sore throat.\nYou can also drink turmeric milk before going to bed.\nIf you are facing more than 2 symptoms,consult your Doctor & Get tested for COVID-19."]
+       },
+       {"tag": "Difficulty in Breathing",
+        "patterns": ["I can't breath.." ],
+        "responses": ["Emergency!!\nSeek immediate medical attention.\\nCall 108"]
+       },
+       {"tag": "Chest Pain or Pressure",
+        "patterns": ["My chest is paining!!!"],
+        "responses": ["Emergency!!\nSeek immediate medical attention.\\nCall 108"]
+       },
+       {"tag": "Loss of speech or movement",
+        "patterns": ["I feel like fainting","I am fainting..Please help.."],
+        "responses": ["Emergency!!\nSeek immediate medical attention.\\nCall 108"]
+       }
+
+   ]
+}
